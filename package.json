@@ -1,0 +1,25 @@
+{
+  "name": "insta",
+  "version": "0.0.1",
+  "description": "El servidor de la app de Instant",
+  "main": "index.js",
+  "author": "Miguel Martinez",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "nodemon --trace-deprecation ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.25.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.6.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  },
+  "resolutions": {
+    "**/**/fs-capacitor": "^6.2.0"
+  }
+}
